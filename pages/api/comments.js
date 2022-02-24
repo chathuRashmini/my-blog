@@ -7,7 +7,7 @@ export default async function comments(req, res) {
   
   const graphQLClient = new GraphQLClient(graphqlAPI, {
     headers: {
-      authorization: `Bearer ${graphCMStoken}`
+      authorization: `Bearer ${graphCMStoken}`,
     }
   })
 
